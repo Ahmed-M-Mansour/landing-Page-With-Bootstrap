@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- meta for mobile responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Page </title>
+
+  <link  rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap">
+ <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/def0_Theam.css">
+
+
+ 
+
+</head>
+
+<body>
+
+  <!-----------------------    Section Tool Box -------------------> 
+
+  <section class="tool-box" id="gear">
+    <i class="fa fa-gear gear-box"></i>
+    <div class="color-option ">
+      <h4> Color Option </h4>
+      <ul class="list-unstyled ">
+        <li data-value="css/def0_Theam.css"  ></li>
+        <li data-value="css/final_Theam.css"  ></li>
+        <li data-value="css/red_Theam.css"  ></li>
+        <li data-value="css/green_Theam.css" ></li>
+      </ul>
+    </div>
+    
+  </section>
+
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand mans logo-font  " href="#">Mans</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active px-lg-2">
+            <a class="nav-link nav-font " href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item px-lg-2">
+            <a class="nav-link nav-font " href="#se"> Services</a>
+          </li>
+
+          <li class="nav-item px-lg-2">
+            <a class="nav-link nav-font  "  href="about.html" > About </a>
+          </li>
+
+          <li class="nav-item dropdown px-lg-2">
+            <a class="nav-link dropdown-toggle nav-font " href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contacts
+            </a>
+            <div class="dropdown-menu col-sm-2 " aria-labelledby="navbarDropdown">
+              <a class="dropdown-item  a-drop li-color nav-font .bg-primary " href="#">Action</a>
+              <a class="dropdown-item  a-drop li-color nav-font " href="#">Another action</a>
+              </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- Curesal -->
+  <section class= " main-carusal ">
+
+  <div class=" container-fluid ">
+
+    <div id="MySlider" class="carousel slide  " data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#MySlider" data-slide-to="0" class="active"></li>
+        <li data-target="#MySlider" data-slide-to="1"></li>
+        <li data-target="#MySlider" data-slide-to="2"></li>
+        <li data-target="#MySlider" data-slide-to="3"></li>
+        <li class="targ" data-target="#MySlider" data-slide-to="4"></li>
+
+      </ol>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active  ">
+          <img class=" d-block w-100 " src="images/22.jpg" alt="First slide">
+
+          <div class=" carousel-caption text-center ">
+            <h2> Ahmed Mansour </h2>
+            <button type="button" class="btn btn-outline-primary">Read More</button>
+            <button type="button" class="btn btn-outline-primary">Buy Now </button>
+
+          </div>
+
+
+        </div>
+
+        <div class="carousel-item ">
+          <img class="d-block w-100" src="images/33.jpg " alt="Second slide">
+          <div class=" carousel-caption">
+            <h2> Ahmed Mansour </h2>
+            <button type="button" class="btn btn-outline-primary">Read More</button>
+            <button type="button" class="btn btn-outline-primary">Buy Now </button>
+          </div>
+
+        </div>
+
+        <div class="carousel-item  ">
+          <img class=" d-block w-100" src="images/44.jpg" alt="Third slide">
+          <div class=" carousel-caption">
+            <h2> Ahmed Mansour </h2>
+            <button type="button" class="btn btn-outline-primary">Read More</button>
+            <button type="button" class="btn btn-outline-primary">Buy Now </button>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <img class="    d-block w-100" src="images/55.jpg" alt="Third slide">
+          <div class=" carousel-caption">
+            <h2> Ahmed Mansour </h2>
+            <button type="button" class="btn btn-outline-primary">Read More</button>
+            <button type="button" class="btn btn-outline-primary">Buy Now </button>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <img class="    d-block w-100" src="images/66.jpg" alt="Third slide">
+          <div class=" carousel-caption">
+            <h2> Ahmed Mansour </h2>
+            <button type="button" class="btn btn-outline-primary">Read More</button>
+            <button type="button" class="btn btn-outline-primary">Buy Now </button>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <a class="carousel-control-prev text-primary" href="#MySlider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+
+      <a class="carousel-control-next " href="#MySlider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only "></span>
+      </a>
+
+    </div>
+
+
+  </div>
+</section>
+  <!------------------------------  Section about me ---------------------->
+
+  <div class="container">
+    <div class="about text-center wow bounceIn">
+      <h2 class=" d-none d-lg-block d-none d-md-block d-lg-none"> Hi My Name is <span> Ahmed </span> </h2>
+      <h4 class=" d-none d-sm-block d-md-none  d-block d-sm-none"> Hi My Name is <span> Ahmed </span> </h4>
+      <p>
+        Iam Ahmed Mansour This is My First Template With Bootstrap
+        I Hope you Like it
+      </p>
+    </div>
+  </div>
+
+  <!--------------------------    Section of Plans -->
+  <section class="plan text-center " data-target="#plan">
+    <div class="container">
+      <h2>
+        Plans
+      </h2>
+
+      <div class="row">
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12  ">
+
+          <div class="card text-white bg-primary mb-3 mx-auto " style="max-width: 18rem;">
+            <div class="card-header">Normal Plane</div>
+            <div class="card-body">
+              <h5 class="card-title"> Free </h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <button type="button" class="btn btn-secondary">Read More</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4  col-md-6  col-sm-12">
+
+          <div class="card text-white bg-info mb-3  mx-auto " style="max-width: 18rem;">
+            <div class="card-header">Plus Plane</div>
+            <div class="card-body">
+              <h5 class="card-title">20$</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                contents</p>
+              <button type="button" class="btn btn-secondary">Read More</button>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4  col-md-6 col-sm-12   m-md-auto  ">
+
+          <div class="card text-white bg-success mb-3   mx-auto " style="max-width: 18rem;">
+            <div class="card-header">Pemum Plane </div>
+            <div class="card-body">
+              <h5 class="card-title">35$</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <button type="button" class="btn btn-secondary">Read More </button>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!------------------------- Break   -------------------------->
+  <div class=" container-fluid">
+    <div class="break"> </div>
+  </div>
+
+  <!------------------------- Features    -------------------------->
+
+  <section class="features text-center ">
+    <div class="container">
+      <h2> Our Features </h2>
+
+      <div class="row   ">
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <i class="fa fa-apple"></i>
+          <h3> Expectations </h3>
+          <p>
+            You can place Font Awesome icons just about
+            anywhere using a style prefix and the icon’s
+            alongside text naturally
+            name. We’ve tried to make it so
+            that icons take on the characteristics and appear .
+          </p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <i class="fa fa-angellist"></i>
+          <h3> Easier </h3>
+          <p></p>
+          name. We’ve tried to make it so
+          that icons take on the characteristics and appear
+          alongside text naturally
+          You can place Font Awesome icons just about
+          anywhere using a style prefix and the icon’s .
+          </p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 m-md-auto">
+          <i class="fa fa-fighter-jet"></i>
+          <h3> Faster </h3>
+          <p>
+            You can place Font Awesome icons just about
+            anywhere using a style prefix and the icon’s
+            name. We’ve tried to make it so
+            that icons take on the characteristics and appear
+            alongside text naturally
+            on the characteristics.
+          </p>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!--    ------------   Testimonial Carusal -->
+
+  <section class="Testimonial text-center ">
+
+    <div class=" container ">
+      <h2> What Our Clients say </h2>
+      <div id="Testimonial-Slider" class="carousel slide  text-center " data-ride="carousel">
+
+        <div class="carousel-inner ">
+
+          <div class="carousel-item active  ">
+            <p>
+              elit. Fusce elementum enim ut placerat molestie.
+              Donec vitae ex a lacus posuere finibus. Mauris et pulvinar
+              ligula, a lobortis neque. Nunc sagittis feugiat suscipit.
+              placerat et vitae lacus. Donec aliquet, risus ac sagittis
+              finibus, purus justo efficitur est, at suscipit nisi mauris at purus.
+            </p>
+            <span> Ahmed Mansour </span>
+          </div>
+
+          <div class="carousel-item   ">
+            <p>  
+              Nunc non nunc semper, lacinia eros ut, fringilla augue.
+              Integer a molestie metus. Mauris quis enim at magna finibus
+              placerat et vitae lacus. Donec aliquet, risus ac sagittis
+              finibus, purus justo efficitur est, at suscipit nisi mauris at purus.
+            </p>
+            <span> Modtafa Ibrahim  </span>
+          </div>
+
+          <div class="carousel-item  ">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Fusce elementum enim ut placerat molestie.
+              Donec vitae ex a lacus posuere finibus. Mauris et pulvinar              
+              finibus, purus justo efficitur est, at suscipit nisi mauris at purus.
+            </p>
+            <span> Hossam Khaled </span>
+          </div>
+          <div class="carousel-item   ">
+            <p>
+              Donec vitae ex a lacus posuere finibus. Mauris et pulvinar
+              elit. Fusce elementum enim ut placerat molestie.
+              Donec vitae ex a lacus posuere finibus. Mauris et pulvinar
+              ligula, a lobortis neque. Nunc sagittis feugiat suscipit.
+            
+            </p>
+            <span> Mohamed Ali  </span>
+          </div>
+
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#Testimonial-Slider" data-slide-to="0" class="active"> <img src="images/v4.jpg"  ></li>
+          <li data-target="#Testimonial-Slider" data-slide-to="1">  <img src="images/v1.jpg"  > </li>
+          <li data-target="#Testimonial-Slider" data-slide-to="2"> <img src="images/v2.jpg"  > </li>
+          <li data-target="#Testimonial-Slider" data-slide-to="3">  <img src="images/v3.jpg"  > </li>
+        
+        </ol>
+      </div>
+    </div>
+
+  </section>
+
+  <!--   ----------------  Pricing Table ------------------------>
+  <section class="pricing-tables text-center ">
+
+    <div class="container">
+      <h2 class="price-header"> Pricing Table </h2>
+      <div class="row">
+       
+       <div class= "col-lg-3 col-md-6  col-sm-12 ">
+         <div class="box">
+          <h2 class=" text-primary"> Hosting   </h2> 
+          <span> 10$ </span>
+          <ul class="list-unstyled" >
+            <li > Space 50GB</li>
+            <li > Fast : 20MB/s</li>
+            <li > Disconed : 10% </li>
+            <li> Emails :15 </li>
+          </ul> 
+          <button class="btn btn-primary"> Subscribe</button>
+         </div>
+       </div>
+
+       <div class= "col-lg-3 col-md-6  col-sm-12">
+        <div class="box">
+         <h2 class=" text-success"> VPS   </h2> 
+         <span> 15$ </span>
+         <ul class="list-unstyled" >
+          <li > Space 80GB</li>
+          <li > Fast : 40MB/s</li>
+          <li > Disconed : 15% </li>
+          <li> Emails :25 </li>
+        </ul>
+         <button class="btn btn-success"> Subscribe</button>
+        </div>
+      </div>
+
+      <div class= "col-lg-3 col-md-6  col-sm-12 ">
+        <div class="box">
+         <h2 class="text-info"> Dedicated  </h2> 
+         <span > 25$ </span>
+         <ul class="list-unstyled" >
+          <li > Space 10GB</li>
+          <li > Fast : 45MB/s</li>
+          <li > Disconed : 20% </li>
+          <li> Emails :40 </li>
+        </ul>
+         <button class="btn btn-info"> Subscribe</button>
+        </div>
+      </div>
+
+      <div class= "col-lg-3 col-md-6  col-sm-12">
+        <div class="box">
+         <h2 class=" text-danger"> Cloud   </h2> 
+         <span> 40$ </span>
+         <ul class="list-unstyled " >
+           <li  class=""> Space 150GB</li>
+           <li > Fast : 70MB/s</li>
+           <li > Disconed : 30% </li>
+           <li> Emails :70 </li>
+         </ul>
+         <button class="btn btn-danger"> Subscribe</button>
+        </div>
+      </div>
+      
+
+      </div>
+    </div>
+  </section>
+
+   <!--    ------------------   Our Team  -------------------------->
+  <section class="team text-center">
+    <div class="overlay">
+      <h2> Meet Our Awesome Team </h2>
+    
+    <div class="container">
+      <div class="row">   
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="person  m-auto">
+          <img   src="images/t1.jpg" >
+          <h3> Mohamed Essam </h3>
+          <p> The Founder of The Amazing Website </p>
+          <a href="#">   <i class="fa fa-google-plus-square fa-lg" ></i>  </a>
+          <a href="#">  <i class="fa fa-facebook-square fa-lg   "></i>  </a>
+          <a href="#">  <i class="fa fa-twitter-square fa-lg" ></i>  </a>
+         <a href="#">   <i class="fa fa-github-square fa-lg" ></i>   </a> 
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+       
+        <div class="person  m-auto">
+          <img src="images/t2.jpg" >
+          <h3> Mohamed Essam </h3>
+          <p> The Founder of The Amazing Website </p>
+          <a href="#">   <i class="fa fa-google-plus-square fa-lg" ></i>  </a>
+          <a href="#">  <i class="fa fa-facebook-square fa-lg   "></i>  </a>
+          <a href="#">  <i class="fa fa-twitter-square fa-lg" ></i>  </a>
+         <a href="#">   <i class="fa fa-github-square fa-lg" ></i>   </a> 
+        </div>
+
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        
+        <div class="person m-auto">
+          <img src="images/t3.jpg" >
+          <h3> Mohamed Essam </h3>
+          <p> The Founder of The Amazing Website </p>
+          <a href="#">   <i class="fa fa-google-plus-square fa-lg" ></i>  </a>
+          <a href="#">  <i class="fa fa-facebook-square fa-lg   "></i>  </a>
+          <a href="#">  <i class="fa fa-twitter-square fa-lg" ></i>  </a>
+         <a href="#">   <i class="fa fa-github-square fa-lg" ></i>   </a> 
+        </div>
+
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        
+        <div class="person  m-auto">
+          <img src="images/t4.jpg" >
+          <h3> Mohamed Essam </h3>
+          <p> The Founder of The Amazing Website </p>
+          <a href="#">   <i class="fa fa-google-plus-square fa-lg" ></i>  </a>
+         <a href="#">  <i class="fa fa-facebook-square fa-lg   "></i>  </a>
+         <a href="#">  <i class="fa fa-twitter-square fa-lg" ></i>  </a>
+        <a href="#">   <i class="fa fa-github-square fa-lg" ></i>   </a> 
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+    </div>
+  </section>
+
+<!--    ------------------   Section subscription  -------------------------->
+
+  <section class="subscription text-center">
+    <div class="container">
+      <h2> Wait The Offer   </h2>
+      <p> Many offers will be ...   Soon ! </p>
+
+      <form class="    m-auto " > 
+        <input class="form-control " type="text" placeholder="Write your Email here "> 
+        <button class="btn btn-primary "> <i class="fa fa-edit fa-lg"></i> Subscribe </button>
+      </form>
+ 
+    </div>
+  </section>
+
+
+
+  <!--     -----------------    Section Statistics -->
+
+  <section class="statistics text-center" id="se">
+    <div class="overlay">
+
+   
+    <div class="container">
+      <h2>  Main Statistics </h2>
+      <div class="row">  
+      
+      <div class="col-lg-3 col-md-6 col-sm-12 "  >
+        <div class="stat">
+          <i class="fa fa-users  fa-3x" aria-hidden="true"> </i>
+          <p> 25,761</p>
+          <span> Users</span>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 "  >
+        <div class="stat">
+          <i class="fa fa-comments fa-3x" aria-hidden="true"></i>
+          <p> 46,435</p>
+          <span> Comments</span>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 "  >
+        <div class="stat">
+          <i class="fa  fa-bell fa-3x" aria-hidden="true"></i>
+          <p> 5,954</p>
+          <span> bells</span>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 "  >
+        <div class="stat">
+          <i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+          <p> 12,785</p>
+          <span> Shopping</span>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+  </div>
+  </section>
+
+<!--   ----------------------  Skills ----------------------------->  
+
+<section class="skills">
+  <div class="container">
+    <h2 class="text-center p-2 mb-4"> THe Skills Of The Team </h2>
+    <div class="row">
+
+      <div class="col-lg-6 mr-1 ">
+        <div class="skills-progress">
+          <div class="progress mb-3">
+            
+            <div class= " progress-bar bg-info   " role="progressbar"
+             aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+              style="width: 80%;">
+            php
+            </div>
+          </div>
+
+          <div class="progress  mb-3">
+            
+            <div class= " progress-bar bg-secondary   " role="progressbar"
+             aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+              style="width: 40%;">
+            Ruby
+            </div>
+          </div>
+
+          <div class="progress   mb-3">
+            
+            <div class= " progress-bar bg-success   " role="progressbar"
+             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+              style="width: 60%;">
+            Python
+            </div>
+          </div>
+
+          <div class="progress   mb-3">
+            
+            <div class= " progress-bar bg-danger   " role="progressbar"
+             aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+              style="width: 25%;">
+            Java
+            </div>
+          </div>
+        </div>
+      </div> 
+
+      <div class="col-lg-5">
+        <p>   
+        Long established fact that a reader will be distracted by the 
+        readable content of a page when looking at its layout. The point of 
+        using Lorem Ipsum is that it has a more-or-less normal
+         distribution of letters, as opposed to using 'Content here, content here',
+        </p>
+        <button class="btn btn-primary"> Talk With Us </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- --------------------- Contact Us section  ------------------------ -->  
+
+  <section class="contact text-center">
+    <div class="overlay">    
+    <div class="container">
+        
+      
+
+      <i class="fa fa-phone fa-4x"></i>
+      <h2>  Tell Us What You Feel </h2>
+      <p class=" lead"> Feel Free To Cantact Us Any Time </p>
+        
+      <form>
+        <div class="row"> 
+        <div class="col-lg-6 col-sm-12">   
+        <div class="form-group">
+          <input type="text" class="form-control "  placeholder="User Name" >
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form-control " "  placeholder="Email ">
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form-control "   placeholder="Phone Number " >
+        </div>
+      </div>
+
+        <div class="col-lg-6 col-sm-12">   
+      <div class="form-group">
+        <input type="text" class="form-control  input-lg"   placeholder=" Write Your Message  " >
+        <button class="btn btn-primary  btn-lg btn-block " > Contact Us </button>
+      </div>
+    </div>
+
+  </div>
+      </form>
+   
+   
+    </div>
+
+
+
+
+
+  </div>
+  </section>
+
+
+
+  <!---------------------------------     Clients section --> 
+
+  <section class="clients d-none d-lg-block d-xl-block">
+    <div class="container">
+       
+      <ul class=" list-unstyled"> 
+        <div class="row"> 
+         
+        <li class=" col-lg-2  col-md-3 col-sm-4 col-xs-6  ">
+          <img    src="images/b1.jpg" > 
+        </li>
+        <li class="col-lg-2  col-md-3 col-sm-4 col-xs-6      ">
+          <img    src="images/b2.jpg" > 
+        </li>
+        <li class="col-lg-2  col-md-3 col-sm-4 col-xs-6  ">
+          <img   src="images/b3.jpg" > 
+        </li>
+        <li class=" col-lg-2  col-md-3 col-sm-4 col-xs-6   ">
+          <img src="images/b4.jpg" > 
+        </li>
+        <li class= " col-lg-2  col-md-3 col-sm-4 col-xs-6  ">
+          <img   src="images/b5.jpg" > 
+        </li>
+        <li class=" col-lg-2  col-md-3 col-sm-4 col-xs-6    ">
+          <img   src="images/b6.jpg" > 
+        </li>
+
+      </div>
+      </ul>
+    
+    </div>
+  </section>
+   
+
+  <footer class=" text-center">
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col-lg-6" >
+
+         <h3> Sitemap </h3>
+         <ul class="list-unstyled three-col   d-flex justify-content-center ">
+          <li>Home</li> 
+              <li> About </li> 
+              <li> Company  </li>    
+                  <li> Code  </li>  
+               
+                     <li> Contact </li>   
+         </ul>
+
+        
+        </div>
+
+        <div class="col-lg-6  ">
+          <h3> Social Media </h3>
+
+          <ul class="list-unstyled icon-col  d-flex justify-content-center">
+            <li> <i class="fa fa-facebook-official  fa-2x  "></i>  </li>
+            <li> <i class="fa fa-twitter  fa-2x   "></i>  </li>
+            <li> <i class="fa fa-whatsapp   fa-2x  "></i>  </li>
+            <li> <i class="fa fa-instagram  fa-2x   "></i>  </li>
+            <li> <i class="fa fa-github  fa-2x   "></i>  </li>
+ 
+          </ul>
+        </div>
+
+        
+
+
+      </div>
+    </div>
+  </footer>
+
+
+
+  
+    <div class="loading-overlay comp">
+      <h2 class="text-center "> Loadding ! </h2>
+    </div>
+
+
+    <div class="scroll-top wow bounceIn" class="d-flex  justify-content-center">
+      
+      <i class=" fa  fa-caret-up fa-3x"></i>
+    </div>  
+    
+
+   
+
+
+  <script src="js/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

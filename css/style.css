@@ -1,0 +1,432 @@
+body
+{
+    padding-top: 70px;
+    font-family: 'Mulish', sans-serif; 
+   overflow: hidden;
+}
+/* ---------  Tool Box styles --------------*/ 
+ 
+.tool-box 
+{
+    position: fixed; 
+    top: 5px; 
+    right: 20px; 
+    z-index: 9999;
+}
+@media (max-width:800px) 
+{
+            .tool-box 
+        {
+            position: fixed; 
+            top: 60px; 
+            right: 30px;  
+            z-index: 9999;
+        }
+}
+.tool-box .color-option 
+{
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+    width: 200px; 
+    display: inline-block; 
+    display: none;
+    overflow: hidden;
+}
+.tool-box  .color-option  ul  li 
+{
+    width: 20px; 
+    height: 20px; 
+    float: right;
+    background-color: #007bff; 
+    margin-left: 3px;
+    overflow: hidden;
+}
+.tool-box .gear-box
+{
+    background-color: #007bff; 
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    top: 5px; 
+    right: 15px;
+}
+@media (max-width:800px) 
+{
+   .tool-box .gear-box   {top: 60px;   right: 30px;}
+}
+/*   ------------------------     Navbar  ---------------------*/
+
+.mans
+{
+    border: 2px solid #fff; 
+    padding:2px; 
+    border-radius: 6px;
+    color: #fff !important;
+}
+/* Nav-font  */
+.logo-font   {font-size: 26px;}
+.nav-font   {font-size: 18px ;   color: black !important;}
+ /*  Main Color of the <a> inside <li>  */
+.li-color   { color: #ddd !important; }
+/*   ---------------------  Dropdown Menu    ---------------------*/
+/* Make the color of  the hover in dropdown */
+.a-drop{transition: all .2s ;  }
+/* Make The color of <a> in dropdown Menu */
+.drop-color    { color: #343A40;}
+ .main-carusal .carousel-indicators li    {opacity: .7;}
+.dropdown-item
+{
+    padding: 0;
+    color: #343A40;
+}
+
+.dropdown-menu   {padding: 0;}
+.about
+{
+    padding: 20px;
+    margin-top: 20px ;
+    border: 3px dotted #eee;
+    transition: all .4s ease ;
+}
+.about h4  span
+{
+    font-size: 22px; 
+    color: #007bff;
+}
+
+.about p  { font-size: 20px;}
+/*    -------------   plans  ------------------*/
+
+.plan h2
+{
+    padding: 30px;
+    margin-top: 10px;
+}
+.plan .col-lg-4
+{
+    transition: all .5s ease ;
+    opacity: .8;
+}
+.plan .col-lg-4:hover  {opacity: 1;}
+
+/* -------------------    Features ------------------------------*/
+
+.break  { opacity: .3;}
+/*  ---------------------------    Features  ------------------  */ 
+
+.features  {margin-top: 50px;}
+.features h2  { transition: all .4s ease;}
+.features .row div
+{
+    border: 2px solid #eee;
+    padding: 30px;
+    opacity: .9;
+    transition:all .4s ;
+}
+
+.features .row div:hover
+{
+    opacity: 1;
+    background-color: #09c;
+    color: #fff;
+}
+.features .row div p
+{
+    font-size: 18px;
+    line-height: 1.9 ;
+}
+.features .row div i {font-size: 30px;}
+/*  ---------------------------   Testimonial Section With Carusal ----------*/
+
+.Testimonial
+{
+    background-color: #eee; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.Testimonial h2  {font-weight: bold;}
+.Testimonial p 
+{
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+.Testimonial span
+{
+    font-size: 18px; 
+    font-weight: bold; 
+}
+.Testimonial .carousel-inner  { min-height: 120px;}
+.Testimonial .carousel-indicators
+{
+    position: static;
+    width: 100%; 
+    margin-left: auto; 
+    padding-top: 20px;
+}
+.Testimonial .carousel-indicators li  
+{
+    text-indent: 0;
+    width: 80px;
+    height: 80px ;
+    background-color: #14171b;
+    opacity: .4;
+    transition: all .4s ease-in-out;
+}
+.Testimonial .carousel-indicators  .active  { opacity: 1;}
+.Testimonial .carousel-indicators li  img
+{
+    width: 100%; 
+    height: 100%;
+}
+
+/* ---------------------------   Pricing table styles  -----------------*/
+
+.pricing-tables
+{
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #eee;
+}
+.pricing-tables .container  .price-header
+{
+    padding: 20px;
+    font-size: 40px;
+    transition: all .4s ease-in-out ;
+}
+.pricing-tables .container  .price-header:hover
+{ text-shadow: 2px 2px 4px #000000;}
+
+.pricing-tables .box 
+{
+    background-color: #fff ;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: all .1s ease-in-out;
+}
+
+.pricing-tables .box:hover span { transform: scale(1.1 , 1.1 ) rotate(360deg);}
+
+.pricing-tables .box  span
+{
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    background-color: #f3f3f3;
+    border-radius: 50% ;
+    padding-top: 20px;
+    margin: auto;
+    transition-duration: .7;
+    transition: all .7s  ;
+}
+.pricing-tables .box  p 
+{
+    font-size: 18px;
+    line-height: 2;
+}
+.pricing-tables .box ul { line-height: 2.5; font-size: 18px;}
+
+.pricing-tables .box button { margin-bottom: 8px;}
+
+/*  --------------------------   Team Styles -----------------------*/
+
+.team
+{
+    background: url(../images/team1.jpg) no-repeat center center fixed  ;
+    background-size:cover ;
+    width: 100%; 
+    min-height: 600px;
+}
+
+.team .overlay 
+{
+    background-color: rgba(2, 2, 2, .6);
+    color: #fff; 
+    min-height: 600px;
+}
+.team .overlay  h2{padding: 30px;   margin-bottom: 50px ;}
+.team .overlay .person {padding-bottom: 50px;}
+.team .overlay .person  img 
+{
+   width:  200px;
+   height: 200px ;
+   border-radius: 50% ;
+   margin-bottom: 30px;
+   transition: all .7s  ;
+}
+.team .overlay .person  img:hover { transform: scale(1.2 );}
+
+.team .overlay .person  a {color: #fff;margin-left: 2px;}
+
+/*   ------------------   Subscription styles --------------*/ 
+
+.subscription 
+{
+    margin-top: 30px;
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    background-color: #eee;
+}
+
+.subscription input 
+{
+    border-radius: 0px ;
+   width: 80%;
+   margin: auto;
+}
+.subscription input::placeholder {text-align: center;}
+
+.subscription button 
+{
+    border-radius: 0px ;
+    width: 130px;
+    margin-top: 5px;
+}
+/*  ------------------------  statistics styles  ---------------*/ 
+.statistics 
+{
+    min-height: 300px;
+    background: url(../images/stats.jpg) no-repeat center center fixed;
+    background-size:cover ;
+} 
+.statistics .overlay 
+{
+    background-color: rgba(2, 2, 2, .9);
+    min-height: 300px;
+    color: #B6B5B5;
+    padding-top: 20px; 
+     padding-bottom: 20px;
+}
+.statistics .overlay  h2 { padding: 40px;}
+.statistics .overlay .stat
+{
+    transition: all .7s ;
+    margin-bottom: 40px;
+}
+
+.statistics .overlay .stat:hover  p 
+{
+    transform:  rotate(360deg);
+    font-size: 30px;
+    padding-top: 20px;
+}
+.statistics .overlay .stat:hover  i { transform: scale(1.4);}
+.statistics .overlay p 
+{
+    margin-bottom: 0;
+    font-size: 50px;
+    display: block;
+    transition:all .4s  ;
+    overflow: hidden;
+}
+.statistics .overlay i {transition: all .7s  ;}
+.statistics .overlay span { font-size: 18px;}
+/*   ------------------------------------  Skilss styles  ---------------*/ 
+.skills { padding-top: 50px;  padding-bottom: 50px; }
+.skills .progress  { font-size: 12px;}
+.skills .progress-bar { text-align: left; text-indent: 15px;}
+.skills p  {  font-size: 18px;}
+.skills button { width: 45%;}
+
+/*    -------------------       contact us styles -------------*/ 
+.contact
+{
+    background: url(../images/contact.jpg) no-repeat center center fixed; 
+    background-size: cover; 
+    min-height: 300px;
+}
+.contact .overlay 
+{
+    background-color: rgba(9, 9, 9, .8);
+    min-height: 300px;
+    color: #ddd;
+    padding-top: 40px; 
+    padding-bottom: 40px;
+}
+.contact .overlay  .input-lg{ height: 90px;}
+.contact .overlay p 
+{
+    margin-bottom: 30px;
+}
+.contact .overlay button { margin-top: 10px;} 
+.contact .overlay input 
+{
+    background-color: rgba(82, 78, 78, 0.4);
+    color: #fff;
+    border: none;
+}
+/* ---------------------  clients styles */ 
+.clients {padding-top: 50px;}
+.clients img
+{
+    padding: 20px;
+    opacity: .4;
+    transition: all .4s ; 
+}
+.clients img:hover{  opacity: 1;}
+ /* -------------------------------  Footer ---------------------*/
+ footer {   background-color: #333;  color: #AAA;}
+footer h3
+ {
+     color: #fff;
+    letter-spacing: 1px;
+    margin: 30px 0 20px ;
+ }
+ footer .three-col{  overflow: hidden;}
+ footer .three-col  li 
+ {
+    padding: 10px;
+    cursor: pointer;
+    opacity: .6;
+    transition: all .4s ;
+    font-weight: bold;
+ }
+ footer .three-col  li:hover {  opacity: 1;}
+ footer .icon-col { overflow: hidden;}
+ footer .icon-col  li 
+ {
+     padding-left:30px ;
+     cursor: pointer;
+     opacity: .6;
+     transition: all .4s ;
+     font-weight: bold;
+}
+ footer .icon-col  li:hover{ opacity: 1;}
+ /* ---------------------  Section Loading of the page --------------*/ 
+ .loading-overlay
+ {
+     padding-top: 400px;
+     color: #fff;
+     position: absolute;
+     top: 0;
+     left: 0 ;
+     width: 100%;
+     height: 100%;
+     background-color: #222;
+     z-index: 99999 ;
+     transition: all 1s ;
+}
+.scroll-top
+{
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: #333;
+    border-radius: 50%  ;
+    position: fixed; 
+    right: 15px; 
+    bottom: 15px; 
+    z-index: 9999;
+   display: none;
+}
+.scroll-top i { margin-left: 9px;}
+
+

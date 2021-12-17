@@ -1,0 +1,39 @@
+.mans 
+, .main-carusal .carousel-indicators li 
+, .main-carusal .carousel-indicators li 
+, .dropdown-item:hover 
+,  .tool-box  .color-option  ul  li 
+,  .tool-box .gear-box
+
+{
+    background-color: #007bff   ;
+   
+}
+
+
+.about:hover
+{
+    border: 3px dotted #007bff;
+
+}
+
+.about h2  span
+, .about h4  span 
+, .features h2:hover
+, .Testimonial span
+, footer .icon-col  li  
+, footer .three-col  li 
+{ 
+    color: #007bff;
+}
+
+.break 
+{
+    border-top: 2px solid #007bff;
+}
+
+.tool-box .color-option 
+{
+      border: 4px solid #007bff;
+}
+
